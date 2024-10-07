@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  /* rgb(88, 88, 88); */
+}
+
+h1,
+h2 {
+  color: rgb(240, 240, 240);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.game {
+  display: grid;
+  gap: 30px;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  margin-top: 10px;
+}
+
+.game div {
+  width: 200px;
+  height: 200px;
+  border: 10px solid rgb(168, 168, 168);
+  border-radius: 10%;
+}
+
+.game .green {
+  background-color: green;
+}
+
+.game .red {
+  background-color: red;
+}
+
+.game .yellow {
+  background-color: yellow;
+}
+
+.game .blue {
+  background-color: blue;
+}
+
+/* .game .button-light {
+  border: 10px solid rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
+} */
